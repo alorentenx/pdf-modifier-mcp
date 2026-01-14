@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Format
+.mypy_cache/
+.ruff_cache/
+
+# Project Specific
+tests/examples_output/
+*.log
+.DS_Store
+tests/examples_output/
+
+# AI
+.claude/
+.gemini/
